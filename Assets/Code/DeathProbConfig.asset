@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486e3e72f028a3c4999632acb4fa4806, type: 3}
+  m_Name: DeathProbConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DeathProbConfig
+  Kdef: 2000
+  steep: 8
+  pMin: 0.001
+  pMax: 0.999
+  dungeonATK: 400
+  warriorDEF: 800
+  dealerCount: 3
+  party:
+  - role: 0
+    hp: 1200
+    evasion: 0.1
+    lambda: 50
+    q_preview: 0.0020236555
+    P_run_preview: 0.096232176
+  - role: 1
+    hp: 800
+    evasion: 0.2
+    lambda: 50
+    q_preview: 0.0090489425
+    P_run_preview: 0.36393028
+  - role: 1
+    hp: 800
+    evasion: 0.2
+    lambda: 50
+    q_preview: 0.0090489425
+    P_run_preview: 0.36393028
+  - role: 1
+    hp: 800
+    evasion: 0.25
+    lambda: 50
+    q_preview: 0.008483384
+    P_run_preview: 0.34568685
