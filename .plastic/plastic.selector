@@ -1,4 +1,0 @@
-repository "Cloud Repositories/Dungeon Manager@14568778363032@cloud"
-  path "/"
-    br "/main"
-    co "/main"
